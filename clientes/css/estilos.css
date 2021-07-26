@@ -53,6 +53,7 @@ body{
     height: 52px;  
     margin-top: 27px;
     margin-left: 64px; 
+    
 }
 .logo3{
     width: 96px;
@@ -200,7 +201,7 @@ Parrafos
 
 .fondo2{
     background-color:rgb(0, 0, 0, 59%); 
-    height: 100vh;
+    /* height: auto; */
 }
 
 /* formulario */
@@ -287,6 +288,76 @@ Parrafos
     letter-spacing: -0.015em;
 }
 
+/* registro */
+/* fondo secundario */
+.frg1{
+    background-color: #f3f3f3d1;
+    border-radius: 38px 38px 0px 0px;
+    margin-top: 36px;
+    padding: 0px !important;
+    width: 360px;
+    /* height: auto; */
+}
+/* logo principa */
+.nrg1{
+    width: 260px;
+    height: 67px;
+    margin-left: 47px;
+    margin-top: 20px;
+}
+/* titulo  */
+.trg{
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+    margin-left: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+/* imput */
+
+.imrg{
+    width: 300px;
+    height: 45px;
+    background: #A6A6A6;
+    border-radius: 8px;
+    border: 0px;
+    margin-left: 47px;
+    margin-top: 10px;
+
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #F2F2F2;
+    padding-left: 12px;
+}
+/* botones */
+.btrg{
+    width: 133px;
+    height: 38px;
+    margin-top: 23px;
+    margin-left: 210px;
+    background-color: #242426;
+    color: #fefeff;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 23px;
+    display: flex;
+    letter-spacing: -0.015em;
+    align-items: center;
+    text-align: center;
+}
+.img_registro{
+    margin-left: 81px;
+    width: 226px;
+    height: 158px;
+    margin-top: 26px;
+}
 
 @media (min-width: 360px ) and (max-width: 769.98px){
 
@@ -304,6 +375,12 @@ Parrafos
     }
     .fr1{
         margin-top: 0px;
+        
+    }
+    .frg1{
+        margin-top: 0px;
+        padding: 0px !important;
+        height: auto;
         
     }
     /* .fr{
